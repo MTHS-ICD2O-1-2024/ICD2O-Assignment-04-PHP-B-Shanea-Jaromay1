@@ -36,7 +36,6 @@
       <div class="page-content-guide">
         Select the size of the bag for your candies. YAY!
       </div>
-      <form>
         <div class="page-options">
           <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-single-bag">
             <input type="radio" name="option-single-bag" class="mdl-radio__button" value="1"
