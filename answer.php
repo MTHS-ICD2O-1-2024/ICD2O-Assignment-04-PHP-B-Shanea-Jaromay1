@@ -36,12 +36,13 @@
           <?php
           // tax rate
           $TAX_RATE = 0.18;
+          $bagType = "";
           $subTotal = 0;
-          $bagType = ""
 
           // input
-          $optionSingle = $_GET["option-single-bag"];
           $userCandy = $_GET["user-candy"];
+          $optionSingle = $_GET["option-single-bag"];
+
 
           // process` 
           if ($optionSingle == true) {
@@ -57,10 +58,10 @@
           $totalPrice = $subTotal + $tax;
 
           // output
-          echo 'You selected ' + userCandy + ' in a ' + bagType + '.<br>' +
-            'Sub Total: $' + subTotal . toFixed(2) + '<br>' +
-            'Tax: $' + tax . toFixed(2) + '<br>' +
-            'Total Price: $' + totalPrice . toFixed(2)
+          echo 'You selected ' . $userCandy . ' in a ' . $bagType . '.<br>';
+            'Sub Total: $' . $subTotal . '<br>';
+            'Tax: $' . $tax . '<br>' ;
+            'Total Price: $' . $totalPrice . '.';
           ?>
         </div>
       </div>
