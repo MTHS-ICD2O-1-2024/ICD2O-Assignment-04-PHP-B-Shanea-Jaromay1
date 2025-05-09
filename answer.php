@@ -59,9 +59,9 @@
 
           // output
           echo 'You selected ' . $userCandy . ' in a ' . $bagType . '.<br>';
-            'Sub Total: $' . $subTotal . '<br>';
-            'Tax: $' . $tax . '<br>' ;
-            'Total Price: $' . $totalPrice . '.';
+          echo 'Sub Total: $' . $subTotal . '<br>';
+          echo 'Tax: $' . $tax . '<br>' ;
+          echo 'Total Price: $' . $totalPrice . '.';
           ?>
         </div>
       </div>
