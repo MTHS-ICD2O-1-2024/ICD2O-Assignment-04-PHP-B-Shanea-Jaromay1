@@ -38,11 +38,11 @@
         </div>
         <div class="page-options">
           <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-single-bag">
-            <input type="radio" name="option-single-bag" value="1" />
+            <input type="radio" name="type-of-bag" value="1" />
             <span class="mdl-radio__label">Single-size bag - $5 (10 pieces of candy)</span>
           </label>
           <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-family-bag">
-            <input type="radio" name="option-family-bag" value="2" />
+            <input type="radio" name="type-of-bag" value="2" />
             <span class="mdl-radio__label">Family-size bag - $15 (20 pieces of candy)</span>
           </label>
         </div>

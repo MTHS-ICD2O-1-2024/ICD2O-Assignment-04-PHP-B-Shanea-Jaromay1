@@ -41,11 +41,11 @@
 
           // input
           $userCandy = $_GET["user-candy"];
-          $optionSingle = $_GET["option-single-bag"];
+          $typeOfBag = $_GET["type-of-bag"];
 
 
           // process` 
-          if ($optionSingle == true) {
+          if ($typeOfBag == "1") {
             $subTotal = $subTotal + 5;
             $bagType = "Single-size bag";
           } else {
